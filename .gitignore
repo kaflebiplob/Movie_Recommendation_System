@@ -1,0 +1,53 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Data (large/raw datasets shouldn't go in git)
+data/raw/
+data/processed/
+*.csv
+*.tsv
+
+# Trained models (usually too large for git)
+models/
+*.pkl
+*.joblib
+*.h5
+
+# FastAPI / general
+*.log
+*.sqlite3
+
+# Environment variables / secrets
+.env
+*.env
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# OS
+Thumbs.db
+
+# Test / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
